@@ -60,7 +60,7 @@ function pedido() {
             let total = cantidad * 90;
             alert("Estarán listas en 30 minutos. El total a pagar es de:" + total);
            break
-    } 
+    } /// Aqui se determina si el cliente quiere continuar pidiendo mas
         if (confirm("¿Quiere seguir pidiendo?") == true) {
             let menu = parseInt(prompt("Que mas desea pedir?(Ingresa solamente el número de las siguientes opciones):\n 1-Enchiladas\n 2-quesadilla"))
             pedido()
